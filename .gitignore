@@ -1,0 +1,40 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+.env
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Rastreamento de Experimentos do MLflow
+mlruns/
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Modelos de Machine Learning (artefatos gerados)
+models/*.joblib
+models/*.pkl
+
+# Configurações de IDEs e Editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de Log
+*.log
+
+# Artefatos de build e distribuição
+build/
+dist/
+*.egg-info/
+
+*.joblib

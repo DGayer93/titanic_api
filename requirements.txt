@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+mlflow
+xgboost
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+prometheus-fastapi-instrumentator
+pytest
+joblib
+pydantic-settings
