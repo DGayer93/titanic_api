@@ -35,6 +35,7 @@ settings = AppSettings()
 # --- Variáveis Globais ---
 # Esta variável irá armazenar o modelo de machine learning atualmente ativo.
 model: Any = None
+
 # Use a deque for capped, memory-safe history
 prediction_history: deque = deque(maxlen=settings.history_size)
 

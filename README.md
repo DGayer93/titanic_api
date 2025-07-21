@@ -45,7 +45,7 @@ Eles serão os modelos possiveis para carregamento no endpoint `v1/load`
 
 Suba a aplicação com o comando
 
-`docker compose up`
+`docker compose up --build`
 
 A aplicação estará disponivel no `localhost:8000` e a documentação no `localhost:8000/docs`
 
